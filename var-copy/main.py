@@ -1,6 +1,7 @@
 def add_hundred(num):
     num += 100
+    return num
 
 x = 1
-add_hundred(x)
+x = add_hundred(x)
 print(x)
